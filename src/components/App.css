@@ -1,0 +1,48 @@
+.App {
+  border : 1px solid #E2E6E8;
+  overflow:hidden;
+  background-color: #E7E9EC;
+  font-family: 'Lato', sans-serif;
+}
+
+.App div {
+  padding: 20px;
+}
+
+.HCardBuilder {
+  background-color: #FFF;
+  float:left;
+  margin-right:20px;
+  width:50%;
+}
+
+@media screen and (max-width: 700px) {
+   .HCardBuilder {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+}
+
+.HCardBuilder h1 {
+  margin: 10px 10px 0 10px;
+  padding: 0;
+  color: #394F63;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+.HCardBuilder h2 {
+  margin: 10px;
+  padding-bottom: 3px;
+  border-bottom: solid 1px #E2E6E8;
+  width: 92%;
+  color: #BDC5C8;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
