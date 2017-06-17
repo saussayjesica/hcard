@@ -1,4 +1,10 @@
 
+## HCard test
+
+clone github repository
+`npm install` to install node modules
+`yarn start` 
+
 ## HCard
 
-`yarn start`
+https://hcard-ocqabpfexj.now.sh/
